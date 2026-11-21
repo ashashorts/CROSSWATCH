@@ -1,0 +1,20 @@
+{
+  "release_type": "PROFESSOR_REVIEW_SANITIZED_CODE_CANDIDATE_NOT_FINAL",
+  "created_utc": "2026-11-20T23:32:52.682011+00:00",
+  "historical_private_run_id": "a1f356ff373b090a3a83",
+  "original_market_csvs_included": false,
+  "private_provider_emails_included": false,
+  "private_historical_daily_scores_included": false,
+  "rights_mode": "user_attested_instructor_held; not independently documented in the code ZIP",
+  "code_tests_passed": 117,
+  "private_historical_artifacts_verified": 52,
+  "historical_report_numerical_checks_passed": 50,
+  "independent_exact_numeric_table_comparisons": 6,
+  "historical_notebook_executed_code_cells": 4,
+  "demo_data_loader_model_split_combinations": 4,
+  "live_browser_test": "PENDING: live Streamlit interface not verified in audit environment",
+  "final_video": "PENDING",
+  "final_report_author_fields": "PENDING",
+  "source_tree_model_fingerprints_still_match_private_historical_run": true,
+  "professor_review_fix": "removed temp historical results from shareable archive; corrected report permission wording; added Sources/README.md and ZIP scanner"
+}

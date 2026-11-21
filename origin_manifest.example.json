@@ -1,0 +1,9 @@
+{
+  "status": "UNVERIFIED_ORIGIN_REVIEW_REQUIRED",
+  "notes": "Example only. Run Sources/prepare_origin_manifest.py on genuinely acquired files; manually supply source URLs and attest only after inspection.",
+  "sources": {
+    "SP500": {"sha256": "", "official_source_url": "", "acquisition_method": "", "acquisition_date_utc": "", "origin_verified_by_researcher": false},
+    "VIXCLS": {"sha256": "", "official_source_url": "", "acquisition_method": "", "acquisition_date_utc": "", "origin_verified_by_researcher": false},
+    "DGS10": {"sha256": "", "official_source_url": "", "acquisition_method": "", "acquisition_date_utc": "", "origin_verified_by_researcher": false}
+  }
+}

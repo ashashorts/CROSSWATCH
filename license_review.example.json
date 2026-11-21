@@ -1,0 +1,29 @@
+{
+  "status": "pending_permission_review",
+  "researcher_reviewed_and_signed": false,
+  "reviewer_name": "",
+  "review_date": "",
+  "sources": {
+    "SP500": {
+      "data_provider": "S&P Dow Jones Indices LLC",
+      "document": "",
+      "evidence_sha256": "",
+      "permits_student_ml_training": false,
+      "permitted_use_description": ""
+    },
+    "VIXCLS": {
+      "data_provider": "Cboe Global Markets",
+      "document": "",
+      "evidence_sha256": "",
+      "permits_student_ml_training": false,
+      "permitted_use_description": ""
+    },
+    "DGS10": {
+      "data_provider": "Board of Governors of the Federal Reserve System / U.S. Treasury",
+      "document": "",
+      "evidence_sha256": "",
+      "permits_student_ml_training": false,
+      "permitted_use_description": ""
+    }
+  }
+}

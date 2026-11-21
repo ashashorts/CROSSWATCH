@@ -1,0 +1,321 @@
+{
+  "audit_type": "CROSSWATCH_READ_ONLY_REPORT_ALIGNMENT",
+  "generated_utc": "2026-11-20T23:00:30.337204+00:00",
+  "numerical_checks_passed": true,
+  "number_of_checks": 50,
+  "failed_checks": [],
+  "checks": [
+    {
+      "item": "Table I train rows",
+      "pass": true,
+      "report_value": "1721",
+      "computed_value": 1721
+    },
+    {
+      "item": "Table I train first date",
+      "pass": true,
+      "report_value": 1,
+      "computed_value": 1
+    },
+    {
+      "item": "Table I train last date",
+      "pass": true,
+      "report_value": 1,
+      "computed_value": 1
+    },
+    {
+      "item": "Table I validation rows",
+      "pass": true,
+      "report_value": "370",
+      "computed_value": 370
+    },
+    {
+      "item": "Table I validation first date",
+      "pass": true,
+      "report_value": 1,
+      "computed_value": 1
+    },
+    {
+      "item": "Table I validation last date",
+      "pass": true,
+      "report_value": 1,
+      "computed_value": 1
+    },
+    {
+      "item": "Table I test rows",
+      "pass": true,
+      "report_value": "370",
+      "computed_value": 370
+    },
+    {
+      "item": "Table I test first date",
+      "pass": true,
+      "report_value": 1,
+      "computed_value": 1
+    },
+    {
+      "item": "Table I test last date",
+      "pass": true,
+      "report_value": 1,
+      "computed_value": 1
+    },
+    {
+      "item": "Table II Global severity",
+      "pass": true,
+      "report_value": 0.5353,
+      "computed_value": 0.5353
+    },
+    {
+      "item": "Table II VIX boundary",
+      "pass": true,
+      "report_value": 22.87,
+      "computed_value": 22.87
+    },
+    {
+      "item": "Table II Ordinary VIX severity",
+      "pass": true,
+      "report_value": 0.4634,
+      "computed_value": 0.4634
+    },
+    {
+      "item": "Table II Elevated VIX severity",
+      "pass": true,
+      "report_value": 0.6724,
+      "computed_value": 0.6724
+    },
+    {
+      "item": "Table III Equity-tail test proxy hits",
+      "pass": true,
+      "report_value": "0",
+      "computed_value": 0
+    },
+    {
+      "item": "Table III Equity-tail test alerts",
+      "pass": true,
+      "report_value": "4",
+      "computed_value": 4
+    },
+    {
+      "item": "Table III Equity-tail validation budget hits",
+      "pass": true,
+      "report_value": "9",
+      "computed_value": 9
+    },
+    {
+      "item": "Table III Equity-tail test budget hits",
+      "pass": true,
+      "report_value": "4",
+      "computed_value": 4
+    },
+    {
+      "item": "Table III Training-reference z-score test proxy hits",
+      "pass": true,
+      "report_value": "2",
+      "computed_value": 2
+    },
+    {
+      "item": "Table III Training-reference z-score test alerts",
+      "pass": true,
+      "report_value": "18",
+      "computed_value": 18
+    },
+    {
+      "item": "Table III Training-reference z-score validation budget hits",
+      "pass": true,
+      "report_value": "6",
+      "computed_value": 6
+    },
+    {
+      "item": "Table III Training-reference z-score test budget hits",
+      "pass": true,
+      "report_value": "2",
+      "computed_value": 2
+    },
+    {
+      "item": "Table III Rolling z-score test proxy hits",
+      "pass": true,
+      "report_value": "10",
+      "computed_value": 10
+    },
+    {
+      "item": "Table III Rolling z-score test alerts",
+      "pass": true,
+      "report_value": "47",
+      "computed_value": 47
+    },
+    {
+      "item": "Table III Rolling z-score validation budget hits",
+      "pass": true,
+      "report_value": "7",
+      "computed_value": 7
+    },
+    {
+      "item": "Table III Rolling z-score test budget hits",
+      "pass": true,
+      "report_value": "3",
+      "computed_value": 3
+    },
+    {
+      "item": "Table III Global forest, 3 features test proxy hits",
+      "pass": true,
+      "report_value": "1",
+      "computed_value": 1
+    },
+    {
+      "item": "Table III Global forest, 3 features test alerts",
+      "pass": true,
+      "report_value": "10",
+      "computed_value": 10
+    },
+    {
+      "item": "Table III Global forest, 3 features validation budget hits",
+      "pass": true,
+      "report_value": "6",
+      "computed_value": 6
+    },
+    {
+      "item": "Table III Global forest, 3 features test budget hits",
+      "pass": true,
+      "report_value": "4",
+      "computed_value": 4
+    },
+    {
+      "item": "Table III Global forest, 5 features test proxy hits",
+      "pass": true,
+      "report_value": "0",
+      "computed_value": 0
+    },
+    {
+      "item": "Table III Global forest, 5 features test alerts",
+      "pass": true,
+      "report_value": "6",
+      "computed_value": 6
+    },
+    {
+      "item": "Table III Global forest, 5 features validation budget hits",
+      "pass": true,
+      "report_value": "8",
+      "computed_value": 8
+    },
+    {
+      "item": "Table III Global forest, 5 features test budget hits",
+      "pass": true,
+      "report_value": "2",
+      "computed_value": 2
+    },
+    {
+      "item": "Table III VIX-context forest, 3 features test proxy hits",
+      "pass": true,
+      "report_value": "1",
+      "computed_value": 1
+    },
+    {
+      "item": "Table III VIX-context forest, 3 features test alerts",
+      "pass": true,
+      "report_value": "20",
+      "computed_value": 20
+    },
+    {
+      "item": "Table III VIX-context forest, 3 features validation budget hits",
+      "pass": true,
+      "report_value": "5",
+      "computed_value": 5
+    },
+    {
+      "item": "Table III VIX-context forest, 3 features test budget hits",
+      "pass": true,
+      "report_value": "1",
+      "computed_value": 1
+    },
+    {
+      "item": "Table III VIX-context forest, 5 features test proxy hits",
+      "pass": true,
+      "report_value": "2",
+      "computed_value": 2
+    },
+    {
+      "item": "Table III VIX-context forest, 5 features test alerts",
+      "pass": true,
+      "report_value": "17",
+      "computed_value": 17
+    },
+    {
+      "item": "Table III VIX-context forest, 5 features validation budget hits",
+      "pass": true,
+      "report_value": "4",
+      "computed_value": 4
+    },
+    {
+      "item": "Table III VIX-context forest, 5 features test budget hits",
+      "pass": true,
+      "report_value": "2",
+      "computed_value": 2
+    },
+    {
+      "item": "Evaluation evaluable days",
+      "pass": true,
+      "report_value": 365,
+      "computed_value": 365
+    },
+    {
+      "item": "Evaluation validation positives",
+      "pass": true,
+      "report_value": 64,
+      "computed_value": 64
+    },
+    {
+      "item": "Evaluation test positives",
+      "pass": true,
+      "report_value": 53,
+      "computed_value": 53
+    },
+    {
+      "item": "Equal evaluation sample size",
+      "pass": true,
+      "report_value": 365,
+      "computed_value": 365
+    },
+    {
+      "item": "Case severity",
+      "pass": true,
+      "report_value": 0.665,
+      "computed_value": 0.665
+    },
+    {
+      "item": "Case global cutoff",
+      "pass": true,
+      "report_value": 0.535,
+      "computed_value": 0.535
+    },
+    {
+      "item": "Case elevated-VIX cutoff",
+      "pass": true,
+      "report_value": 0.672,
+      "computed_value": 0.672
+    },
+    {
+      "item": "Case equity decline magnitude",
+      "pass": true,
+      "report_value": 4.36,
+      "computed_value": 4.36
+    },
+    {
+      "item": "Case VIX change points",
+      "pass": true,
+      "report_value": 11.57,
+      "computed_value": 11.57
+    }
+  ],
+  "run_id": null,
+  "run_kind": "private_unreleased_numerical_qa",
+  "artifact_manifest_verified": false,
+  "user_report_completion_pending": [
+    "Actual video link",
+    "Group member ratings",
+    "Member learning outcomes",
+    "Team number and author names",
+    "Verified actual video URL absent"
+  ],
+  "final_submission_ready": false,
+  "notes": "Numerical consistency does not prove future prediction, license coverage, untouched test data, or full submission readiness. No raw source series exported. The underlying user-provided daily research outputs were not distributed."
+}

@@ -1,0 +1,31 @@
+{
+  "status": "user_attested_instructor_held",
+  "attestation_mode": "instructor_held_user_statement",
+  "attested_by": "course_project_user",
+  "attested_date": "YYYY-MM-DD",
+  "user_confirmed_approvals_on_file_with_instructor": false,
+  "noncommercial_university_coursework_only": false,
+  "no_public_raw_data_redistribution": false,
+  "independent_document_verification": false,
+  "notes": "Requires the actual project user to attest truthfully. This file is not an approval email or an independent verification. The instructor retains the external evidence.",
+  "sources": {
+    "SP500": {
+      "data_provider": "S&P Dow Jones Indices LLC",
+      "permits_student_ml_training": false,
+      "confirmation_basis": "user_reported_provider_approval_held_by_instructor",
+      "permitted_use_description": ""
+    },
+    "VIXCLS": {
+      "data_provider": "Cboe Global Markets",
+      "permits_student_ml_training": false,
+      "confirmation_basis": "user_reported_provider_approval_held_by_instructor",
+      "permitted_use_description": ""
+    },
+    "DGS10": {
+      "data_provider": "U.S. Treasury / Federal Reserve H.15",
+      "permits_student_ml_training": false,
+      "confirmation_basis": "public_domain_treasury_user_attested",
+      "permitted_use_description": ""
+    }
+  }
+}

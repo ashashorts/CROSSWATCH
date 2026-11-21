@@ -1,0 +1,3 @@
+# Historical results are private and not in the shareable Fix 3 ZIP
+
+The previous archived `Results` folder contained older research artifacts whose daily derived market data should not be treated as the current verified release. It has been omitted from the shareable Fix 3 package to reduce inadvertent redistribution and eliminate stale-run confusion. Use the original private archives for historical records; build fresh results through the rights-gated canonical runner into `private-results/` and verify its schema-3 run manifest. Never copy an old `FRED_HISTORICAL` result into the new dashboard and do not attach proprietary raw CSVs to a public repository.

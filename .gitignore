@@ -1,0 +1,27 @@
+# Restricted licensed raw market data and authorization correspondence
+private-inputs/
+private-results/
+private_raw_fred/
+private_raw_data/
+REAL_RESULTS/
+docs/rights_evidence/
+docs/license_correspondence/
+*.eml
+# Exclude local research environment and caches
+.venv/
+.env
+__pycache__/
+.pytest_cache/
+*.pyc
+.DS_Store
+
+# Local signed authorization decisions and byte-level source identities
+docs/license_review.json
+docs/origin_manifest.json
+private-inputs*/
+private-results*/
+evidence/private*/
+private-case-exports*/
+private-review*/
+evidence/private_synthetic_inputs*/
+evidence/private_synthetic_integration*/

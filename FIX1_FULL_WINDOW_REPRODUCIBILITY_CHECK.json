@@ -1,0 +1,334 @@
+{
+  "audit_kind": "FIX1_COMPLETE_WINDOW_SOURCE_INTEGRITY_AND_RESEARCH_PARITY",
+  "analysis_window": {
+    "start": "2017-01-03",
+    "end": "2026-11-18",
+    "boundary_tolerance_days": 7,
+    "max_valid_date_gap_days": 10,
+    "min_weekday_coverage_per_year": 0.7
+  },
+  "csv_files": {
+    "SP500": {
+      "file_name": "SP500.csv",
+      "sha256": "c2dc1e6a1147bd35bb7d1ba46cf9af28748441ee937a7d398c7790b84f54b05a",
+      "first_csv_date": "2017-01-03",
+      "last_csv_date": "2026-11-18",
+      "first_valid_in_window": "2017-01-03",
+      "last_valid_in_window": "2026-11-18",
+      "total_csv_rows": 2577,
+      "valid_in_window": 2484,
+      "missing_numeric_in_window": 93,
+      "invalid_date_count": 0,
+      "duplicate_date_count": 0,
+      "starts_near_requested_start": true,
+      "ends_near_requested_end": true,
+      "max_consecutive_valid_date_gap_days": 4,
+      "no_suspicious_long_valid_gaps": true,
+      "all_years_sufficient_coverage": true,
+      "requested_window_covered": true,
+      "year_coverage": {
+        "2017": {
+          "valid_observations": 251,
+          "reference_weekdays": 259,
+          "weekday_coverage_fraction": 0.969112
+        },
+        "2018": {
+          "valid_observations": 251,
+          "reference_weekdays": 261,
+          "weekday_coverage_fraction": 0.961686
+        },
+        "2019": {
+          "valid_observations": 252,
+          "reference_weekdays": 261,
+          "weekday_coverage_fraction": 0.965517
+        },
+        "2020": {
+          "valid_observations": 253,
+          "reference_weekdays": 262,
+          "weekday_coverage_fraction": 0.965649
+        },
+        "2021": {
+          "valid_observations": 252,
+          "reference_weekdays": 261,
+          "weekday_coverage_fraction": 0.965517
+        },
+        "2022": {
+          "valid_observations": 251,
+          "reference_weekdays": 260,
+          "weekday_coverage_fraction": 0.965385
+        },
+        "2023": {
+          "valid_observations": 250,
+          "reference_weekdays": 260,
+          "weekday_coverage_fraction": 0.961538
+        },
+        "2024": {
+          "valid_observations": 252,
+          "reference_weekdays": 262,
+          "weekday_coverage_fraction": 0.961832
+        },
+        "2025": {
+          "valid_observations": 250,
+          "reference_weekdays": 261,
+          "weekday_coverage_fraction": 0.957854
+        },
+        "2026": {
+          "valid_observations": 222,
+          "reference_weekdays": 230,
+          "weekday_coverage_fraction": 0.965217
+        }
+      }
+    },
+    "VIXCLS": {
+      "file_name": "VIXCLS.csv",
+      "sha256": "289a32d0a513d3b74bc14dc6e7c72779ee15db7cee7aee638c033c217f59977b",
+      "first_csv_date": "2017-01-03",
+      "last_csv_date": "2026-11-18",
+      "first_valid_in_window": "2017-01-03",
+      "last_valid_in_window": "2026-11-18",
+      "total_csv_rows": 2577,
+      "valid_in_window": 2517,
+      "missing_numeric_in_window": 60,
+      "invalid_date_count": 0,
+      "duplicate_date_count": 0,
+      "starts_near_requested_start": true,
+      "ends_near_requested_end": true,
+      "max_consecutive_valid_date_gap_days": 4,
+      "no_suspicious_long_valid_gaps": true,
+      "all_years_sufficient_coverage": true,
+      "requested_window_covered": true,
+      "year_coverage": {
+        "2017": {
+          "valid_observations": 251,
+          "reference_weekdays": 259,
+          "weekday_coverage_fraction": 0.969112
+        },
+        "2018": {
+          "valid_observations": 251,
+          "reference_weekdays": 261,
+          "weekday_coverage_fraction": 0.961686
+        },
+        "2019": {
+          "valid_observations": 252,
+          "reference_weekdays": 261,
+          "weekday_coverage_fraction": 0.965517
+        },
+        "2020": {
+          "valid_observations": 253,
+          "reference_weekdays": 262,
+          "weekday_coverage_fraction": 0.965649
+        },
+        "2021": {
+          "valid_observations": 252,
+          "reference_weekdays": 261,
+          "weekday_coverage_fraction": 0.965517
+        },
+        "2022": {
+          "valid_observations": 256,
+          "reference_weekdays": 260,
+          "weekday_coverage_fraction": 0.984615
+        },
+        "2023": {
+          "valid_observations": 257,
+          "reference_weekdays": 260,
+          "weekday_coverage_fraction": 0.988462
+        },
+        "2024": {
+          "valid_observations": 259,
+          "reference_weekdays": 262,
+          "weekday_coverage_fraction": 0.98855
+        },
+        "2025": {
+          "valid_observations": 258,
+          "reference_weekdays": 261,
+          "weekday_coverage_fraction": 0.988506
+        },
+        "2026": {
+          "valid_observations": 228,
+          "reference_weekdays": 230,
+          "weekday_coverage_fraction": 0.991304
+        }
+      }
+    },
+    "DGS10": {
+      "file_name": "DGS10.csv",
+      "sha256": "7ce1fe1cd0210e6e4369fce84134dbdb458b166281f17a6207264d6ba37c21e2",
+      "first_csv_date": "2017-01-03",
+      "last_csv_date": "2026-11-18",
+      "first_valid_in_window": "2017-01-03",
+      "last_valid_in_window": "2026-11-18",
+      "total_csv_rows": 2577,
+      "valid_in_window": 2470,
+      "missing_numeric_in_window": 107,
+      "invalid_date_count": 0,
+      "duplicate_date_count": 0,
+      "starts_near_requested_start": true,
+      "ends_near_requested_end": true,
+      "max_consecutive_valid_date_gap_days": 4,
+      "no_suspicious_long_valid_gaps": true,
+      "all_years_sufficient_coverage": true,
+      "requested_window_covered": true,
+      "year_coverage": {
+        "2017": {
+          "valid_observations": 250,
+          "reference_weekdays": 259,
+          "weekday_coverage_fraction": 0.965251
+        },
+        "2018": {
+          "valid_observations": 249,
+          "reference_weekdays": 261,
+          "weekday_coverage_fraction": 0.954023
+        },
+        "2019": {
+          "valid_observations": 250,
+          "reference_weekdays": 261,
+          "weekday_coverage_fraction": 0.957854
+        },
+        "2020": {
+          "valid_observations": 251,
+          "reference_weekdays": 262,
+          "weekday_coverage_fraction": 0.958015
+        },
+        "2021": {
+          "valid_observations": 251,
+          "reference_weekdays": 261,
+          "weekday_coverage_fraction": 0.961686
+        },
+        "2022": {
+          "valid_observations": 249,
+          "reference_weekdays": 260,
+          "weekday_coverage_fraction": 0.957692
+        },
+        "2023": {
+          "valid_observations": 250,
+          "reference_weekdays": 260,
+          "weekday_coverage_fraction": 0.961538
+        },
+        "2024": {
+          "valid_observations": 250,
+          "reference_weekdays": 262,
+          "weekday_coverage_fraction": 0.954198
+        },
+        "2025": {
+          "valid_observations": 249,
+          "reference_weekdays": 261,
+          "weekday_coverage_fraction": 0.954023
+        },
+        "2026": {
+          "valid_observations": 221,
+          "reference_weekdays": 230,
+          "weekday_coverage_fraction": 0.96087
+        }
+      }
+    }
+  },
+  "union_source_dates": 2577,
+  "complete_joined_dates": 2466,
+  "five_feature_scoring_dates": 2461,
+  "quality_gate_pass": true,
+  "full_window_pass": true,
+  "split_after_three_core_features": {
+    "train": {
+      "n": 1725,
+      "start": "2017-01-04",
+      "end": "2023-11-28"
+    },
+    "validation": {
+      "n": 370,
+      "start": "2023-11-29",
+      "end": "2025-05-23"
+    },
+    "test": {
+      "n": 370,
+      "start": "2025-05-27",
+      "end": "2026-11-18"
+    }
+  },
+  "archived_spotchecks_compared": {
+    "SP500": {
+      "comparison_rows": 5,
+      "values_match": true
+    },
+    "VIXCLS": {
+      "comparison_rows": 5,
+      "values_match": true
+    },
+    "DGS10": {
+      "comparison_rows": 5,
+      "values_match": true
+    }
+  },
+  "research_comparison_tables": [
+    {
+      "name": "feature_comparison_operating.csv",
+      "matched": true,
+      "rows": 20,
+      "columns": 12,
+      "mismatch_columns": {},
+      "max_abs_diff_by_numeric_column": {}
+    },
+    {
+      "name": "feature_comparison_budget.csv",
+      "matched": true,
+      "rows": 20,
+      "columns": 8,
+      "mismatch_columns": {},
+      "max_abs_diff_by_numeric_column": {}
+    },
+    {
+      "name": "episode_coverage.csv",
+      "matched": true,
+      "rows": 28,
+      "columns": 15,
+      "mismatch_columns": {},
+      "max_abs_diff_by_numeric_column": {}
+    },
+    {
+      "name": "pairwise_alert_overlap.csv",
+      "matched": true,
+      "rows": 84,
+      "columns": 9,
+      "mismatch_columns": {},
+      "max_abs_diff_by_numeric_column": {}
+    },
+    {
+      "name": "three_features/association_rules.csv",
+      "matched": true,
+      "rows": 33,
+      "columns": 13,
+      "mismatch_columns": {},
+      "max_abs_diff_by_numeric_column": {}
+    },
+    {
+      "name": "three_features/FRED_HISTORICAL_operating_proxy_diagnostics.csv",
+      "matched": true,
+      "rows": 10,
+      "columns": 13,
+      "mismatch_columns": {},
+      "max_abs_diff_by_numeric_column": {}
+    },
+    {
+      "name": "five_features/association_rules.csv",
+      "matched": true,
+      "rows": 36,
+      "columns": 13,
+      "mismatch_columns": {},
+      "max_abs_diff_by_numeric_column": {}
+    },
+    {
+      "name": "five_features/FRED_HISTORICAL_operating_proxy_diagnostics.csv",
+      "matched": true,
+      "rows": 10,
+      "columns": 13,
+      "mismatch_columns": {},
+      "max_abs_diff_by_numeric_column": {}
+    }
+  ],
+  "numeric_parity_all_tables": true,
+  "permission_scope": "User reports written academic authorization; original correspondence was not supplied to this audit.",
+  "licensed_raw_data_in_shareable_release": false,
+  "full_historical_runner_verified_with_real_evidence": false,
+  "full_local_model_qa_completed": true,
+  "local_model_qa_result_type": "USER_SUPPLIED_CSV_LOCAL_QA; runs model modules directly without claiming documented authorization gate passed",
+  "known_followup": "Fix 2: historical dashboard still expects old FRED_HISTORICAL output naming; rights documentation to be entered privately before authorized runner."
+}
